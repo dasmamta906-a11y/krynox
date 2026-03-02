@@ -4,6 +4,7 @@ import BottomPanel from './components/BottomPanel';
 import ExtensionsPanel from './components/ExtensionsPanel';
 import EditorWorkspace from './components/EditorWorkspace';
 import KrynoxLayout from './components/KrynoxLayout';
+import LicensePanel from './components/LicensePanel';
 import * as monaco from 'monaco-editor';
 
 // Define hover data for common JavaScript/TypeScript functions
@@ -213,6 +214,23 @@ interface Tab {
 }
 
 export default function App() {
+  // License check
+  const [licenseKey, setLicenseKey] = useState<string>(() => {
+    return localStorage.getItem('krynox_license_key') || '';
+  });
+  const [isLicenseValid, setIsLicenseValid] = useState<boolean>(() => {
+    return localStorage.getItem('krynox_license_valid') === 'true';
+  });
+
+  const handleLicenseValid = useCallback(() => {
+    setIsLicenseValid(true);
+  }, []);
+
+  // Show license panel if not valid
+  if (!isLicenseValid) {
+    return <LicensePanel onLicenseValid={handleLicenseValid} currentLicense={licenseKey || undefined} />;
+  }
+
   const [commandPaletteOpen, setCommandPaletteOpen] = useState(false);
   const [leftSidebarView, setLeftSidebarView] = useState<SidebarView>('extensions');
   const [leftSidebarOpen, setLeftSidebarOpen] = useState(true);
