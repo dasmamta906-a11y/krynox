@@ -1,0 +1,93 @@
+[
+  {
+    "id": "nav-glass",
+    "name": "Glassmorphism Navbar",
+    "category": "Standard",
+    "hiddenPrice": 5,
+    "icon": "Menu"
+  },
+  {
+    "id": "hero-ultra",
+    "name": "Hero Section v2 (Parallax)",
+    "category": "Standard",
+    "hiddenPrice": 5,
+    "icon": "Layout"
+  },
+  {
+    "id": "crypto-wallet",
+    "name": "Multi-Wallet Connect",
+    "category": "Crypto Pro",
+    "hiddenPrice": 30,
+    "icon": "Wallet"
+  },
+  {
+    "id": "trading-chart",
+    "name": "TradingView Advanced Charts",
+    "category": "Crypto Pro",
+    "hiddenPrice": 30,
+    "icon": "LineChart"
+  },
+  {
+    "id": "ride-hail-engine",
+    "name": "Mobility Engine (Ola/Uber Clone)",
+    "category": "Mobility Super",
+    "hiddenPrice": 150,
+    "icon": "CarFront"
+  },
+  {
+    "id": "surge-logic",
+    "name": "AI Surge Pricing Module",
+    "category": "Mobility Super",
+    "hiddenPrice": 120,
+    "icon": "Zap"
+  },
+  {
+    "id": "fleet-track",
+    "name": "Live Fleet Tracking Map",
+    "category": "Mobility Super",
+    "hiddenPrice": 150,
+    "icon": "MapPin"
+  },
+  {
+    "id": "god-eye",
+    "name": "Central Command Dashboard",
+    "category": "Enterprise Admin",
+    "hiddenPrice": 120,
+    "icon": "LayoutDashboard"
+  },
+  {
+    "id": "user-vault",
+    "name": "User Management Vault",
+    "category": "Enterprise Admin",
+    "hiddenPrice": 90,
+    "icon": "UserCog"
+  },
+  {
+    "id": "saas-portal",
+    "name": "SaaS Membership System",
+    "category": "Enterprise Admin",
+    "hiddenPrice": 110,
+    "icon": "Users"
+  },
+  {
+    "id": "krynox-bot",
+    "name": "KRYNOX AI Chatbot",
+    "category": "AI Intelligence",
+    "hiddenPrice": 50,
+    "icon": "MessageSquare"
+  },
+  {
+    "id": "sentiment-ai",
+    "name": "Market Sentiment Analyzer",
+    "category": "AI Intelligence",
+    "hiddenPrice": 40,
+    "icon": "BrainCircuit"
+  },
+  {
+    "id": "elite-commander",
+    "name": "AI Crypto Commander (Elite)",
+    "category": "Elite Tier",
+    "hiddenPrice": 500,
+    "icon": "ShieldAlert"
+  }
+]
